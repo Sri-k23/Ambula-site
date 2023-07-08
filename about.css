@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.modal {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body{
+    margin: 0;
+}
+/* navbar */
+.navbar{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+/* about-section */
+.about-header{
+  padding-top:5%;
+
+  text-align: center;
+}
+/* feature-2 */
+.feature-2{
+  width: 100%;
+  color: #000;
+  margin: 50px 0;;
+}
+.feature-2-img{
+  text-align: left;
+}
+.feature-2-text {
+  text-align: left;
+}
+
+/* recognition-section */
+.recognition-section{
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+
+/* our-team */
+.team-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.team-section .card{
+    border: none;
+    align-items: center;
+}
+.team-section img{
+    width: 200px;
+    height: 200px;
+}
+.card-title{
+  width: 225px;
+}
+
+/* founder's perspective */
+.founder-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.founder-section h1{
+    text-align: center;
+}
+.founder-section img{
+    width: 200px;
+}
+
+
+
+
+
+
+

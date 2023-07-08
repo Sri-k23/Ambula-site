@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambula home page</title>
+    <link rel="icon" type="image/x-icon" href="ambula-heart.ico">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="ambula.svg" alt="Ambula-logo" width="160" height="42">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Abha login
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="text-align: center;">
+                          <div class="modal-dialog">
+                            <div class="modal-content" style="background-image:url('bg-red.svg'); background-size: cover; background-repeat: no-repeat;">
+                              <div class="modal-header">
+                                <!-- <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;">Click the link below to download the App !</h1> -->
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;   font-size: 32px;">Click the link below to download the App !</p>
+                                <div class="img-imp">
+                                  <img src="home.svg" alt="mobile-version" class="img-fluid main-img" width="205" height="397">
+                                </div>
+                                <div class="store-logo">
+                                <a href="#">
+                                <img src="google-play.svg" alt="google-playstore" width="220" height="59">
+                                </a>
+                                <a href="#">
+                                <img src="apple-store.svg" alt="app-store" width="220" height="59">
+                                </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero-section -->
+     <div class="hero-section"><p class="card-title" style="font-weight: Bold; font-size: 370%;">Start Your Health Account</p>    
+        <p class="main-para">Your Health Passport Awaits. Embrace Convenience and Wellness with AMBULA</p>
+        <div class="store-logo">
+          <!-- <a href="#"> -->
+        <img src="google-play.svg" alt="google-playstore" width="220" height="59">
+        <!-- </a> -->
+        <!-- <a href="#"> -->
+        <img src="apple-store.svg" alt="app-store" width="220" height="59">
+        <!-- </a> -->
+        </div>
+        <div class="img-imp">
+          <img src="main-img.svg" alt="mobile-version" class="img-fluid main-img" width="858" height="539.94">
+        </div>
+      </div>
+
+      <!-- recognitions -->
+      <div class="recognition-section">
+        <p class="card-title" style="font-weight:bold; font-size: 110%;">RECOGNISED BY</p>
+        <br>
+        <!-- <div class="gov-logo">
+          <img src="nha.svg" alt="nha">
+          <img src="ABDM.svg" alt="abdm">
+          <img src="Startup-odisha.svg" alt="startup-odisha">
+          <img src="Cowin.svg" alt="cowin">
+        </div> -->
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-md-6">
+              <img src="nha.svg" alt="nha">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img src="ABDM.svg" alt="ABDM">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img src="Startup-odisha.svg" alt="Startup-odisha">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <img src="Cowin.svg" alt="Cowin">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- feature 1-->
+      <div class="feature-1">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 feature-1-text">
+              <p style="font-weight:normal; font-size: 130%;">ABHA CREATION</p>
+              <p style="font-weight:bold; font-size: 230%;">Start Your Digital Healthcare</p>
+              <p style="font-weight:normal; font-size: 24px;">Empowering Your Health: Begin Your Digital Healthcare Odyssey with Ambula</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                CREATE ABHA
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="text-align: center;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="background-image:url('bg-red.svg'); background-size: cover; background-repeat: no-repeat;">
+                    <div class="modal-header">
+                      <!-- <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;">Click the link below to download the App !</h1> -->
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;   font-size: 32px;">Click the link below to download the App !</p>
+                      <div class="img-imp">
+                        <img src="home.svg" alt="mobile-version" class="img-fluid main-img" width="205" height="397">
+                      </div>
+                      <div class="store-logo">
+                      <a href="#">
+                      <img src="google-play.svg" alt="google-playstore" width="220" height="59">
+                      </a>
+                      <a href="#">
+                      <img src="apple-store.svg" alt="app-store" width="220" height="59">
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 feature-1-img">
+              <img src="illustration-1.svg" class="img-fluid" alt="first-illustration">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Quote -->
+    <div class="feature-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 feature-2-img">
+            <img src="family.svg" class="img-fluid" alt="first-illustration">
+          </div>
+          <div class="col-lg-6 feature-2-text">
+            <p style="font-weight:normal; font-size: 24px;"><svg style="font-size: 24px;" color="#D8293D" opacity="31%" class="svg-inline--fa fa-quote-left fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="quote-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M0 432V304C0 166.982 63.772 67.676 193.827 32.828 209.052 28.748 224 40.265 224 56.027v33.895c0 10.057-6.228 19.133-15.687 22.55C142.316 136.312 104 181.946 104 256h72c26.51 0 48 21.49 48 48v128c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48zm336 48h128c26.51 0 48-21.49 48-48V304c0-26.51-21.49-48-48-48h-72c0-74.054 38.316-119.688 104.313-143.528C505.772 109.055 512 99.979 512 89.922V56.027c0-15.762-14.948-27.279-30.173-23.199C351.772 67.676 288 166.982 288 304v128c0 26.51 21.49 48 48 48z"></path></svg> Ambula is dedicated to providing top-tier healthcare infrastructure and comprehensive services that cater to all your healthcare needs.
+              <svg style="font-size: 24px;" color="#D8293D" opacity="31%" class="svg-inline--fa fa-quote-right fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="quote-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 80v128c0 137.018-63.772 236.324-193.827 271.172-15.225 4.08-30.173-7.437-30.173-23.199v-33.895c0-10.057 6.228-19.133 15.687-22.55C369.684 375.688 408 330.054 408 256h-72c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h128c26.51 0 48 21.49 48 48zM176 32H48C21.49 32 0 53.49 0 80v128c0 26.51 21.49 48 48 48h72c0 74.054-38.316 119.688-104.313 143.528C6.228 402.945 0 412.021 0 422.078v33.895c0 15.762 14.948 27.279 30.173 23.199C160.228 444.324 224 345.018 224 208V80c0-26.51-21.49-48-48-48z"></path></svg></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- feature 2-->
+    <div class="feature-1">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 feature-1-text">
+            <p style="font-weight:normal; font-size: 130%;">STORE RECORDS</p>
+            <p style="font-weight:bold; font-size: 230%;">Store Your Healthcare Digitally</p>
+            <p style="font-weight:normal; font-size: 24px;">Streamline Your Health Records: Effortlessly Access and Manage Your Digital Health Journey with Ambula</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              UPLOAD
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="text-align: center;">
+              <div class="modal-dialog">
+                <div class="modal-content" style="background-image:url('bg-red.svg'); background-size: cover; background-repeat: no-repeat;">
+                  <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;">Click the link below to download the App !</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;   font-size: 32px;">Click the link below to download the App !</p>
+                    <div class="img-imp">
+                      <img src="home.svg" alt="mobile-version" class="img-fluid main-img" width="205" height="397">
+                    </div>
+                    <div class="store-logo">
+                    <a href="#">
+                    <img src="google-play.svg" alt="google-playstore" width="220" height="59">
+                    </a>
+                    <a href="#">
+                    <img src="apple-store.svg" alt="app-store" width="220" height="59">
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 feature-1-img">
+            <img src="illustrtion-2.svg" class="img-fluid" alt="first-illustration">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQs -->
+    <section id="faq">
+      <div class="faq-section">
+        <p class="card-title" style="font-weight:bold; font-size: 230%;">FAQs</p>
+          
+          <div class="faq-body container-md">
+            <div class="accordion" id="accordionExample">
+  
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is ABHA ID and how can I create one?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    ABHA ID is a unique identification number that allows you to access and utilize various healthcare services, providing a unified and streamlined experience across platforms.To create an ABHA ID, you can visit the ABHA ID registration portal and follow the step-by-step instructions.Your ABHA ID is linked to your Aadhaar card, ensuring authentication and security.
+                   asked to provide necessary information such as your name, contact details, and demographic data.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How do I make an ABHA account without an Aadhar number or any other  form of government-issued identification?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Yes, you can create an ABHA address without an Aadhar address or any other form of government-issued identification.To create an ABHA address (name@abdm) , you can visit the ABHA address registration portal on our app and follow the instructions. During the ABHA address creation process, you will be asked to provide necessary information such as your name, contact details, and demographic data.
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How long does it take to receive my ABHA ID after registration?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    After successful registration, you will receive your ABHA ID instantly, allowing you to start utilizing healthcare services right away.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Can I update or modify my information in my ABHA ID?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    No, you cannot modify information in your ABHA ID as it is connected to your Aadhar ID and 
+                    the information is retrieved from your Aadhar ID.
+                     However, You have the option to update and modify your information in your ABHA address by logging into your account and accessing the profile settings.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Can I request my health records from healthcare providers directly through AMBULA?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Yes, AMBULA facilitates requesting your health records directly from healthcare providers, saving you time and effort in obtaining your medical history.
+                    </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Can I import my existing health records into AMBULA , and is there a limit to 
+                    the number of health records I can store on AMBULA?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Yes, AMBULA allows you to import your existing health records, making it easy to have all your information in one place.
+                    There is no limit to the number of health records you can store on AMBULA. You can add as many records as you need.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- form -->
+    <section id="contact">
+      <div class="form-section">
+        <div class="container-md">
+          <p class="card-title" style="font-weight:bold; font-size: 130%;">CONTACT US</p>
+          <p class="card-title" style="font-weight:bold; font-size: 180%;">Let's get in touch</p>
+         
+          <p>We would love to hear from you</p>
+  
+          <form class="row g-3" method="POST" action="mailto:sriram@ambula.app" enctype="multipart/form-data">
+              <div class="col-12">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="col-12">
+                  <input class="form-control" type="text" placeholder="Name" aria-label="default input example">
+              </div>
+              <div class="col-12">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              </div>
+              <div class="col-12">
+                  <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+   
+    <!-- footer -->
+    <footer style="background-color: #0E2657;"   class="text-white pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class=" text-start  col-md-5 col-lg-4 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4"><img src="ambula-logo-white.png" alt="Ambula-logo" width="160" height="42"></h5>
+            <p>Ambula Technologies Private Limited, Ashok Vatika, Near, Mangala Temple Rd, Chakeisihani, Bhubaneswar, Odisha 751010
+            </p>
+            <div class="text-start text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/AmbulaTech" class="btn-floating btn-sm text-white"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/ambula.tech/?hl=en" class="btn-floating btn-sm text-white"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/company/ambulatech/mycompany/" class="btn-floating btn-sm text-white"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/@ambula" class="btn-floating btn-sm text-white"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class=" text-start col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <p class="card-title" style="font-weight:bold; font-size: 120%;">COMPANY</p>
+          <BR>
+       
+            <p>
+              <a href="index.html" class="text-white" style="text-decoration: none;">Home</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-white" style="text-decoration: none;">About</a>
+            </p>
+            <p>
+              <a href="#contact" class="text-white" style="text-decoration: none;">Contact Us</a>
+            </p>
+          </div>
+          <div class=" text-start col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <p class="card-title" style="font-weight:bold; font-size: 120%;">QUICK LINKS</p>
+            <BR>
+            <p>
+              <a href="#faq" class="text-white" style="text-decoration: none;">FAQ</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#exampleModal">Abha login</a>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="text-align: center;">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="background-image:url('bg-red.svg'); background-size: cover; background-repeat: no-repeat;">
+                    <div class="modal-header">
+                      <!-- <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;">Click the link below to download the App !</h1> -->
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p id="exampleModalLabel" style="color: #fff; font-weight: bold; text-align: center;   font-size: 32px;">Click the link below to download the App !</p>
+                      <div class="img-imp">
+                        <img src="home.svg" alt="mobile-version" class="img-fluid main-img" width="307" height="397">
+                      </div>
+                      <div class="store-logo">
+                      <a href="#">
+                      <img src="google-play.svg" alt="google-playstore" width="220" height="59">
+                      </a>
+                      <a href="#">
+                      <img src="apple-store.svg" alt="app-store" width="220" height="59">
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </p>
+          </div>
+          <div class=" text-start col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <p class="card-title" style="font-weight:bold; font-size: 120%;">INFORMATION</p>
+          <BR>
+            <p>
+              <a href="mailto:sriram@ambula.app" style="text-decoration: none;color: #fff;">
+                <i class="fa fa-envelope"></i>  support@ambula.app
+              </a>
+            </p>
+            <p>
+              <a href="tel:919700213084" style="text-decoration: none;color: #fff;">
+              <i class="fa fa-phone"></i>  +91-9700213084
+              </a>
+            </p>
+          </div>
+          <hr class="mb-4">
+          <div class="row text-center align-items-center">
+            <p>© Ambula. 2023. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+</html>
