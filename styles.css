@@ -7,15 +7,15 @@
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
-.modal::-webkit-scrollbar {
+ .modal::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .modal {
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
+  scrollbar-width: none;   /*Firefox*/ 
+} 
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -33,16 +33,13 @@ body{
 .navbar > form > button{
   padding-left:20px;
   padding-right:20px;
-}
+} 
 .navbar .navbar-collapse {
-  text-align: center;
-}
-.navbar .navbar-collapse button{
-margin: 0 auto;
+text-align: center;
 }
 /* hero-section */
 .hero-section{
-  padding: 150px 50px;
+  padding: 100px 50px;
   align-items: center;
   height: 1000px;
   overflow-y: hidden;

@@ -34,9 +34,6 @@ body{
 .navbar .navbar-collapse {
   text-align: center;
 }
-.navbar .navbar-collapse button{
-margin: 0 auto;
-}
 /* about-section */
 .about-header{
   padding-top:5%;
