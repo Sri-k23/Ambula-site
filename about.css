@@ -23,6 +23,20 @@ body{
   padding-left: 20%;
   padding-right: 20%;
 }
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+.navbar > form > button{
+  padding-left:20px;
+  padding-right:20px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-collapse button{
+margin: 0 auto;
+}
 /* about-section */
 .about-header{
   padding-top:5%;
