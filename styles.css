@@ -59,6 +59,18 @@ text-align: center;
 .img-imp{
   width: 100%;
 }
+.hero-header{
+  width: 100%;
+  background-image:url('bg-red.svg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 400px;
+  margin: 0 0 50px 0;
+}
+.hero-header p{
+  margin: 10% 0;
+}
 /* recognition-section */
 .recognition-section{
   padding-top: 50px;
@@ -70,7 +82,7 @@ text-align: center;
   width: 100%;
   background-color: #0E2657;
   color: #ffffff;
-  margin: 50px 0;;
+  margin: 50px 0;
 }
 .feature-1-img{
   text-align: right;
