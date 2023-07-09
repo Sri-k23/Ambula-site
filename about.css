@@ -93,7 +93,15 @@ margin: 0 auto;
 .founder-section img{
     width: 200px;
 }
-
+@media screen and (max-width: 992px) {
+  .feature-2-text{
+    text-align:center;
+    padding: 50px 0;
+  }
+  .feature-2-img{
+    text-align: center;
+  }
+}
 
 
 
